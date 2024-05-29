@@ -407,7 +407,7 @@ def draw_game_over():
                             True, 'white'), (210, 240))
 
 
-# main game loop
+# Основной цикл игры
 black_options = check_options(black_pieces, black_locations, 'black')
 white_options = check_options(white_pieces, white_locations, 'white')
 run = True
